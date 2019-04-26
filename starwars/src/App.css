@@ -6,3 +6,13 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.card{
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px black;
+}
