@@ -16,3 +16,15 @@
   border-radius: 5px;
   box-shadow: 10px 10px 10px black;
 }
+
+.personName{
+  border: solid rgb(5, 5, 5) 1px;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.content{
+  list-style-type: none
+}
