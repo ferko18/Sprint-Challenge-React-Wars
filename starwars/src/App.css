@@ -6,3 +6,33 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.card{
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.personName{
+  border: solid rgb(5, 5, 5) 1px;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.content{
+  list-style-type: none;
+  
+}
+
+.content li{
+  border: solid rgb(12, 12, 12) 1px;
+  padding: 5px;
+  width: 80%;
+  margin-top: 2px;
+}

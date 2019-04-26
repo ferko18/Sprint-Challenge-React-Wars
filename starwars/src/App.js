@@ -33,6 +33,26 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+          {this.state.starwarsChars.map(charr=>(
+            <div className="card">
+            <div className="personName">
+               {charr.name}
+            </div>
+            <ul className="content">
+
+               <li>height: {charr.height} inches</li>
+               <li> mass: {charr.mass} Kilograms</li>
+               <li>hair color: {charr.hair_color} </li>
+              <li>skin color: {charr.skin_color} </li> 
+              <li>eye color: {charr.eye_color} </li> 
+              <li>birth year: {charr.birth_year} </li> 
+              <li>gender: {charr.gender} </li> 
+
+            </ul>
+            
+            </div>
+            
+            ))} 
       </div>
     );
   }

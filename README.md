@@ -26,11 +26,20 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+     React JS is a JavasCript library used to build user interfaces. React apps are built from components which are reusable composable and sateful.
+     React's virtual DOM solves the problem of slow DOM updates if a page has data that changes over time at high rates. React solves this problem, without even having the page reload using the virtual DOM. 
+
+
 - [ ] What does it mean to _think_ in react?
 
+  Break down our UI into reasonable react components that can be reused
+
 - [ ] Describe state.
+A state is a data within a component that can change ( using setState method).Only the component that owns( initialized) the state can change it. When states are passed to another component , the are called props. 
 
 - [ ] Describe props.
+props are data that are passed down to a child component. The child component only consumes the props but can't change it. 
+
 
 ## Project Set Up
 
