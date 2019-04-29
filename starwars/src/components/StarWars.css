@@ -1,0 +1,11 @@
+.content
+{
+    color: rgb(224, 51, 51);
+    font-weight: 600;
+}
+
+.content li{
+ border-radius: 10px;
+ background-color: blanchedalmond
+
+}
